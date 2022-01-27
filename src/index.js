@@ -3,10 +3,30 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+
+const initialState = {cartarr:[]};
+
+function reducer(state = initialState, actions){
+  console.log(state)
+  const items = localStorage.getItem('mycart');
+  if(items == null){
+    return undefined;
+  }
+  else{
+    return JSON.parse(items)
+  }
+};
+
+const store = createStore(reducer);
+store.dispatch({type: 'Additem'})
 
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={store}>
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

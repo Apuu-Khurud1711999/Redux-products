@@ -1,0 +1,25 @@
+{
+    "products":[
+        {"id":1,"pname":"Makeup kit", "price":500, "quantity":10,"images":"./images/1.png" },
+        {"id":2,"pname":"Makeup kit", "price":500, "quantity":20,"images":"./images/2.jpeg" },
+        {"id":3,"pname":"Makeup kit", "price":500, "quantity":30,"images":"./images/3.png" },
+        {"id":4,"pname":"Makeup kit", "price":500, "quantity":40,"images":"./images/4.jpg" },
+        {"id":5,"pname":"Makeup kit", "price":500, "quantity":50,"images":"./images/5.jfif" },
+        {"id":6,"pname":"Makeup kit", "price":500, "quantity":60,"images":"./images/6.jpg" },
+        {"id":7,"pname":"Makeup kit", "price":500, "quantity":70,"images":"./images/7.jpeg" },
+        {"id":8,"pname":"Makeup kit", "price":500, "quantity":80,"images":"./images/8.jpg" },
+        {"id":9,"pname":"Makeup kit", "price":500, "quantity":90,"images":"./images/9.jfif" },
+        {"id":10,"pname":"Makeup kit", "price":500, "quantity":100,"images":"./images/10.png" },
+        {"id":11,"pname":"Makeup kit", "price":500, "quantity":90,"images":"./images/11.jpg" },
+        {"id":12,"pname":"Makeup kit", "price":500, "quantity":100,"images":"./images/12.jpg" },
+        {"id":13,"pname":"Makeup kit", "price":500, "quantity":30,"images":"./images/13.jpg" },
+        {"id":14,"pname":"Makeup kit", "price":500, "quantity":40,"images":"./images/14.jpeg" },
+        {"id":15,"pname":"Makeup kit", "price":500, "quantity":50,"images":"./images/15.jfif" },
+        {"id":16,"pname":"Makeup kit", "price":500, "quantity":60,"images":"./images/16.jfif" },
+        {"id":17,"pname":"Makeup kit", "price":500, "quantity":70,"images":"./images/17.webp" },
+        {"id":18,"pname":"Makeup kit", "price":500, "quantity":80,"images":"./images/18.jpeg" },
+        {"id":19,"pname":"Makeup kit", "price":500, "quantity":90,"images":"./images/19.jpg" },
+        {"id":20,"pname":"Makeup kit", "price":500, "quantity":100,"images":"./images/20.jpg" },
+        {"id":21,"pname":"Makeup kit", "price":500, "quantity":100,"images":"./images/21.jfif" }
+    ]
+}
